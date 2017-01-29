@@ -1,0 +1,25 @@
+{
+    "name": "cyphp/pico",
+    "description": "A minimal templating engine",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cyveros",
+            "email": "cyveros@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cyphp\\Pico\\": "src/Pico/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2",
+        "phpunit/phpunit": "^5.7"
+    }
+}
