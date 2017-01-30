@@ -18,6 +18,11 @@
             "Cyphp\\Pico\\": "src/Pico/"
         }
     },
+    "scripts": {
+        "test" : [
+            "phpunit"
+        ]
+    },
     "require-dev": {
         "symfony/var-dumper": "^3.2",
         "phpunit/phpunit": "^5.7"
